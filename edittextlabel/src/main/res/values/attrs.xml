@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EditTextLabel">
+        <attr name="etl_text_size" format="dimension"/>
+        <attr name="etl_text_color_normal" format="color"/>
+        <attr name="etl_text_color_selected" format="color"/>
+        <attr name="etl_line_color" format="color"/>
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- The default EditText includes 7dp of top spacing (4dp optical), so we offset by that to tighten up the Views -->
+    <EditText
+        android:id="@+id/libui_edittext_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/libui_edittext_bg_selector"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:id="@+id/libui_edittext_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="#ffffff"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:lines="1"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"/>
+
+    <ImageView
+        android:id="@+id/libui_edittext_del"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        android:src="@drawable/icon_input_clear"/>
+</merge>
